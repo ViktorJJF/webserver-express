@@ -14,7 +14,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 
 app.get('/', (req, res) => {
     res.render('home', {
-        nombre: 'Victor Juan',
+        nombre: 'Victor Juan Jimenez Flores!',
         anio: new Date().getFullYear()
     });
 
